@@ -2,15 +2,16 @@
   background-color: var(--white-color);
 
   &__list {
-    margin-left: 30px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
   }
 
   &__link {
     --color3: currentColor;
     color: #afb1b8;
-    padding: 15px 31px;
+    padding: 15px 51px;
     border: 1px solid #afb1b8;
     display: flex;
     border-radius: 4px;
@@ -23,6 +24,22 @@
       color: var(--blue-color);
       fill: var(--blue-color);
       border: 1px solid var(--blue-color);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .clients {
+    &__link {
+      padding: 15px 59px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .clients {
+    &__link {
+      padding: 15px 31px;
     }
   }
 }
