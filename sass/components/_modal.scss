@@ -215,42 +215,13 @@
     max-width: 528px;
     width: 100%;
   }
-
   .modal-form {
     max-width: 448px;
-    width: 100%;
   }
-
   .check {
-    &__input {
-      position: absolute;
-      clip: rect(0 0 0 0);
-      width: 1px;
-      height: 1px;
-
-      &:checked + .check__box {
-        background-color: var(--blue-color);
-        background-image: url(../images/check.svg);
-        box-shadow: 0 0 0 0.1em var(--blue-color);
-      }
-    }
-
     &__box {
-      position: absolute;
       left: 2px;
       bottom: 5px;
-      width: 16px;
-      height: 15px;
-      overflow: hidden;
-      border-radius: 1px;
-      background-color: var(--white-color);
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-      box-shadow: 0 0 0 0.1em var(--black-text);
-
-      &:hover {
-        box-shadow: 0 0 0 0.1em var(--blue-color);
-      }
     }
   }
 }

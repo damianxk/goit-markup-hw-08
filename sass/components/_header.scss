@@ -64,13 +64,10 @@
   .header {
     padding: 21px 0;
     &__nav {
-      display: flex;
       justify-content: flex-start;
-      align-items: center;
     }
     &__section {
       max-width: 738px;
-      justify-content: space-between;
     }
     &__list {
       display: flex;
